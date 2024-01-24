@@ -1,0 +1,47 @@
+/*Index*/
+
+.card {
+  height: 650px;
+  max-width: 400px;
+  background-color: $gris-medio;
+  border: none;
+  padding: 5px;
+  margin: 15px;
+  margin-top: 50px;
+
+  &:hover {
+    background-color: $gris-claro;
+  }
+
+  .card-img-top {
+    border-radius: 5px;
+  }
+
+  .card-body {
+    margin-top: 10px;
+  }
+
+  .card-text {
+    height: 100px;
+  }
+}
+
+.button {
+  grid-area: boton;
+  display: block;
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px 15px;
+  border: $borde-general;
+  border-radius: 2px;
+  background-color: $gris-claro;
+  color: $verde-medio;
+  cursor: pointer;
+
+  &:hover {
+    border: $borde-boton-hover;
+    background-color: $verde-medio;
+    color: $gris-claro;
+  }
+}
